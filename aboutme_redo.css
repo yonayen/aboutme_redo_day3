@@ -1,21 +1,44 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
 .masthead {
   padding: 6em 0;
   background-image: url("https://images.unsplash.com/photo-1445346366695-5bf62de05412?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=462f409823f1a983e176ccbf46ebefa8");
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: solid 1em brown;
-/*   margin: -0.5em -0.5em; */
+  border-top: solid 1em #7F1527;
+  margin: -0.5em -0.5em;
 }
 
 .masthead-intro {
+/*   Layout Declarations */
   margin-bottom: 0.1em;
-/*   text-align: center; */
+/*   Typography Declartions */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
 }
 .masthead-heading {
+/*   Layout Declarations */
   margin-top: -0.2em;
-/*   text-align: center; */
+/*   Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #7F1527;
+  text-shadow: 6px 1px 1px #000;
 }
-
 
 .introduction-section,
 .location-section,
@@ -28,42 +51,44 @@
 
 .social > li {
   display: inline-block;
-}
-
-.content-footer > p {
-  color: white;
-}
-
-/* .content-footer {
-  background: brown;
-  text-align: center;
-  color: white;
-  background-size: cover;
-  margin: -1em -0.5em;
-  padding: 0.5em;
-} */
-
-/* .social {
-  margin: 0;
   padding: 1em;
-  text-align: center;
-} */
+}
 
-/* ul li {
-  list-style-type: none; 
-  display: inline;
-  margin: 2em;
-} */
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+/*   Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05;
+}
 
-/* .content-footer {
-  text-align: center;
-} */
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
 
-/* a {
-  color: yellow;
+section > h1 {
+  margin-top: 2em;
+}
+
+section > h2 {
+  color: #FFCF33;
+}
+
+.content-footer {
+  color: #FFF;
+  background-color: #7F1527;
+  margin: 1em -0.5em;
+  padding: 0.5em;
+}
+
+.content-footer a {
+  color: #FFCF33;
   text-decoration: none;
   font-weight: bold;
-} */
+}
 
 
 
