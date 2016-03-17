@@ -3,36 +3,68 @@
   background-image: url("https://images.unsplash.com/photo-1445346366695-5bf62de05412?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=462f409823f1a983e176ccbf46ebefa8");
   background-size: cover;
   background-repeat: no-repeat;
-  border-top: solid 1.1em brown;
+  border-top: solid 1em brown;
+/*   margin: -0.5em -0.5em; */
 }
 
 .masthead-intro {
-  text-align: center;
   margin-bottom: 0.1em;
+/*   text-align: center; */
 }
-
 .masthead-heading {
-  text-align: center;
   margin-top: -0.2em;
+/*   text-align: center; */
 }
 
-.intro,
-.location,
-.about,
-.footer {
-  padding: 1em;
-  margin: 0 18em;
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
-.intro-header,
-.location-header,
-.about-header {
-  margin: 0 9em;
-  padding: 1em;
+.social > li {
+  display: inline-block;
 }
 
-.footer-header {
-  margin: 0 6em;
-  padding: 1em;
+.content-footer > p {
+  color: white;
 }
+
+/* .content-footer {
+  background: brown;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  margin: -1em -0.5em;
+  padding: 0.5em;
+} */
+
+/* .social {
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+} */
+
+/* ul li {
+  list-style-type: none; 
+  display: inline;
+  margin: 2em;
+} */
+
+/* .content-footer {
+  text-align: center;
+} */
+
+/* a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+} */
+
+
+
 
