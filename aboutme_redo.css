@@ -3,6 +3,7 @@ body {
     color: #222222;
     font-size: 1em;
     font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 0;
 }
 
 .content-footer,
@@ -80,8 +81,8 @@ section > h2 {
 .content-footer {
   color: #FFF;
   background-color: #7F1527;
-  margin: 1em -0.5em;
   padding: 0.5em;
+  margin: 0 -0.5em;
 }
 
 .content-footer a {
