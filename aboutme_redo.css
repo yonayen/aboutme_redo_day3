@@ -1,8 +1,8 @@
 body {
-    /* Typography Declarations */
-    color: #222222;
-    font-size: 1em;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 0;
 }
 
@@ -39,6 +39,17 @@ body {
   text-transform: uppercase;
   color: #7F1527;
   text-shadow: 6px 1px 1px #000;
+}
+
+
+@media only screen and (max-width:560px) {
+  /* -- should work on screens less than 560px -- */
+  .masthead-heading {
+    font-size: 3em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
 }
 
 .introduction-section,
@@ -91,6 +102,11 @@ section > h2 {
   font-weight: bold;
 }
 
-
+@media only screen and (max-width:560px) {
+  /* -- should work on screens less than 560px -- */
+  .content-footer {
+    font-size: 0.7em;
+  }
+}
 
 
